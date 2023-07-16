@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mesaj\\Documents\\project\\school\\school.csproj": {}
+    "/home/jefersonvargas/projectsdeplatzi/PROJECT_API/projectProofSchool/proof_Project_School/project/school/school.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mesaj\\Documents\\project\\school\\school.csproj": {
+    "/home/jefersonvargas/projectsdeplatzi/PROJECT_API/projectProofSchool/proof_Project_School/project/school/school.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mesaj\\Documents\\project\\school\\school.csproj",
+        "projectUniqueName": "/home/jefersonvargas/projectsdeplatzi/PROJECT_API/projectProofSchool/proof_Project_School/project/school/school.csproj",
         "projectName": "school",
-        "projectPath": "C:\\Users\\mesaj\\Documents\\project\\school\\school.csproj",
-        "packagesPath": "C:\\Users\\mesaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mesaj\\Documents\\project\\school\\obj\\",
+        "projectPath": "/home/jefersonvargas/projectsdeplatzi/PROJECT_API/projectProofSchool/proof_Project_School/project/school/school.csproj",
+        "packagesPath": "/home/jefersonvargas/.nuget/packages/",
+        "outputPath": "/home/jefersonvargas/projectsdeplatzi/PROJECT_API/projectProofSchool/proof_Project_School/project/school/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mesaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/jefersonvargas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.411/RuntimeIdentifierGraph.json"
         }
       }
     }

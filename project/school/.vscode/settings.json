@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "school.sln",
+    "dotnetAcquisitionExtension.enableTelemetry": false
+}
