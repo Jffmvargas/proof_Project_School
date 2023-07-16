@@ -6,8 +6,7 @@ namespace School{
     public class Curso{
         private string id;
         private string name;
-        private LinkedList<Asignature> asignatures;
-        private LinkedList<Alumn> alumns;
+       
 
         public Curso(string name= "", string school = ""){
             id = Guid.NewGuid().ToString();
@@ -20,9 +19,9 @@ namespace School{
 
         public void AddLists(Object alumnOrAsignature) {
             if(alumnOrAsignature is Asignature){
-                this.asignatures.AddLast((Asignature)alumnOrAsignature);
+                this.Asignatures.AddLast((Asignature)alumnOrAsignature);
             }else{
-                this.alumns.AddLast((Alumn)alumnOrAsignature);
+                this.Alumns.AddLast((Alumn)alumnOrAsignature);
             }
         }
         
