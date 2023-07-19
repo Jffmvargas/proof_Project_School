@@ -21,6 +21,14 @@ namespace School{
             this.Cursos.AddLast(curso);
         }
 
+        public double Search(string id){
+            foreach(Evaluation evaluation in Evaluations){
+                 if (evaluation.GetId.Equals(id)) {
+                   return evaluation.Note;}
+            }
+            return 0;
+        }
+
         public string Name { get; private set;}
         public string Description { get; private set;}  
         
