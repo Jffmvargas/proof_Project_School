@@ -20,9 +20,23 @@ namespace School{
         public void AddLists(Object alumnOrAsignature) {
             if(alumnOrAsignature is Asignature){
                 this.Asignatures.AddLast((Asignature)alumnOrAsignature);
-            }else{
+            }else if (alumnOrAsignature is Alumn){
                 this.Alumns.AddLast((Alumn)alumnOrAsignature);
+            }else{
+                throw new Exception("Not is alumn or Asignature, \nfirts create Asignature or Alumn");
             }
+        }
+
+        public double GenereteAverege(string id){
+            double div = 0;
+            double dividendo =0;
+            foreach(Asignature asignatura in Asignatures){
+                dividendo += asignatura.Search(id);   
+                div ++;
+            }
+            double result = div == 0 ? 0:dividendo/div;
+            return result;
+
         }
         
         public string NameM{
