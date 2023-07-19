@@ -26,9 +26,6 @@ namespace School{
         
         public string GetId => id;
 
-        public static implicit operator string(Asignature v)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
