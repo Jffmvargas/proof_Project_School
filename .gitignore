@@ -1,0 +1,3 @@
+*.lock
+*.vscode
+project/school/bin/Debug/net6.0/
